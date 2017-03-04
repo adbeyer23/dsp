@@ -46,7 +46,14 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> >
+`ls` : list files in directory
+`ls -a`  : list all files in directory, including hidden
+`ls -l`  : displays long format listing (editing rights, times-stamps etc.)
+`ls -lh`  : displays long format listing and lists file sizes in human readable format
+`ls -lah`  : display long format listing on all files and lists file sizes in human readable format
+`ls -t`   : displays files by modification time
+`ls -Glp`  
 
 ---
 
