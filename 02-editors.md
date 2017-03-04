@@ -81,7 +81,7 @@ Upload these 3 files to the [`editors`](editors/) folder.
 
 What terminal editor will be your preferred choice of use? How did you make your decision?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> As of right now, nano, because it is easy to start using it and I have prior knowledge of it
 
 --
 
@@ -89,6 +89,19 @@ What terminal editor will be your preferred choice of use? How did you make your
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Sublime: I have used it before and really like it's simplicity
+   Interesting Features: Can use command+D to update multiple variables at the same time
+	                 Can enter distraction free mode which is a full screen with only your text
+			 Can autocomplete words, function names, etc. by only typing a couple of letters and hitting tab (will open up box of selection as you type)
+  
+    Useful Keyboard Shortcuts:
+			 Command+ F to find things
+			 Command + P to use go to anything (which can search between and within files very quickly)
+			 Command + S to save 
+			 Command  + / to comment/uncomment a line
+     
+    How I customize?:
+			 I haven't found anything I really liked..but I have changed the theme to "All Hollows Eve" as I think it is a bit sharper than the default font
+
 
  
