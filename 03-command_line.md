@@ -19,7 +19,8 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > * pwd: show a current working direectory path
+> > 
+    * pwd: show a current working direectory path
     * mkdir directory_name: to create a directory
     * rmdir directory_name: to delete a directory
     * touch filename: to create a file
@@ -27,6 +28,9 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
     * ls -a: list all files including hidden
     * mv filename new_filename: to rename a file
     * cp file directory: copy a file to another directory
+    * head(tail) filename: view the beginning (head) or end (tail) of a file
+    * grep word filename: prints out lines in a file that include the word specified
+    
     
     
 ---
