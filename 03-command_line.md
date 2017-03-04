@@ -47,13 +47,13 @@ What do the following commands do:
 `ls -Glp`  
 
 > >
-`ls` : list files in directory
-`ls -a`  : list all files in directory, including hidden
-`ls -l`  : displays long format listing (editing rights, times-stamps etc.)
-`ls -lh`  : displays long format listing and lists file sizes in human readable format
-`ls -lah`  : display long format listing on all files and lists file sizes in human readable format
-`ls -t`   : displays files by modification time
-`ls -Glp`  
+* ls : list files in directory
+* ls -a : list all files in directory, including hidden
+* ls -l : displays long format listing (editing rights, times-stamps etc.)
+* ls -lh : displays long format listing and lists file sizes in human readable format
+* ls -lah : display long format listing on all files and lists file sizes in human readable format
+* ls -t : displays files by modification time
+* ls -Glp : adds color to and displays directories with a "/" at the end and displays long format listing of files
 
 ---
 
@@ -61,7 +61,12 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 
+* ls -m: seperates file names b commas
+* ls -rt: displays files by reverse time modified
+* ls -1: displays each file on one line
+* ls -d: displays only directories
+* ls -R: also displays subdirectories
 
 ---
 
