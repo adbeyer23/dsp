@@ -74,7 +74,9 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > Xargs is needed when you want to do an operation on many items, and you have surpassed the amount of items allowed by that command. What Xargs does is to seperate the amount of items you have into batches, and runs each manageable batch with that command.
+    For example: find /path -type f -print | xargs rm. Whatever files found in find is piped over to xargs which breaks downs the files into manageable groups and calls remove (rm) on each group.
+
 
  
 
