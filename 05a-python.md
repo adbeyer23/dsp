@@ -12,7 +12,7 @@ For quick and easy interactive practice with Python, many people enjoy [Codecade
 
 How are Python lists and tuples similar and different? Which will work as keys in dictionaries? Why?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Both lists and tuples are a sequence of objects, and unlike, for example, dictionaries, both maintain the order the objects are in. Both are iterable and both can hold any object. The biggest difference between the two is that lists are mutable and tuples are immutable. For example, lists can be appendable, but tuples cannot. Tuples use a bit less memory and and are a bit faster than lists. Because dictionaries require immutable keys, only tuples can work as keys for a dictionary.
 
 ---
 
@@ -20,7 +20,8 @@ How are Python lists and tuples similar and different? Which will work as keys i
 
 How are Python lists and sets similar and different? Give examples of using both. How does performance compare between lists and sets for finding an element. Why?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Lists and sets both contain multiple objects. However, sets cannot have duplicate elements, and lists can have them. A set's objects are unordered, while a list's objects are ordered. For example let's say we have a list of numbers 1,2,2,3,3,4. A list would produce the numbers as [1,2,2,3,3,4] while a set would produce {1,2,3,4}--getting rid of the duplicates. If you were to try to get the value at the zero index for list, python would produce a 1, and would produce an error for the set as sets are unorderable.  
+When looking for an element, sets are faster than lists, because sets are based on hash tables, meaning if searching a list for an object, python only needs to check to see if object is at a position based on it's hash. With a list, elements are searched one by one to see if that elmeent matches the one you are looking for.
 
 ---
 
@@ -40,7 +41,7 @@ Explain list comprehensions. Give examples and show equivalents with `map` and `
 
 ---
 
-### Complete the following problems by editing the files below:
+T### Complete the following problems by editing the files below:
 
 ### Q5. Datetime
 Use Python to compute days between start and stop date.   
