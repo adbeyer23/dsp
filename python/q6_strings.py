@@ -18,7 +18,7 @@ def donuts(count):
     >>> donuts(99)
     'Number of donuts: many'
     """
-    raise NotImplementedError
+    print("Number of donuts: {0}".format(count if count < 10  else  "many"))
 
 
 def both_ends(s):
@@ -37,7 +37,14 @@ def both_ends(s):
     >>> both_ends('xyz')
     'xyyz'
     """
-    raise NotImplementedError
+    new_string =""
+    if len(s) > 2:
+        new_string += s[:2] 
+        new_string += s[-2:]
+    
+      
+    return new_string
+        
 
 
 def fix_start(s):
@@ -56,7 +63,14 @@ def fix_start(s):
     >>> fix_start('donut')
     'donut'
     """
-    raise NotImplementedError
+    astrick, new_word = s[0], s[0]
+    
+    for x in s[1:]:
+        if x != astrick:
+            new_word += x
+        else:
+            new_word += "*"
+    return new_word
 
 
 def mix_up(a, b):
@@ -74,7 +88,11 @@ def mix_up(a, b):
     >>> mix_up('pezzy', 'firm')
     'fizzy perm'
     """
-    raise NotImplementedError
+    first = a[0:2]
+    second = b[0:2]
+    a = second + a[2:]
+    b = first + b[2:]
+    return a + " " + b
 
 
 def verbing(s):
@@ -91,7 +109,11 @@ def verbing(s):
     >>> verbing('do')
     'do'
     """
-    raise NotImplementedError
+    if len(s) >= 3 and s[-3:] != "ing":
+        s += "ing"
+    elif len(s) >= 3 and s[-3:] == "ing":
+        s += "ly"
+    return s
 
 
 def not_bad(s):
@@ -111,7 +133,14 @@ def not_bad(s):
     >>> not_bad("It's bad yet not")
     "It's bad yet not"
     """
-    raise NotImplementedError
+    s = s.split()
+    if ("not" and "bad") in s:
+        a = s.index("not")
+        b = s.index('bad')
+        if a < b:
+            del s[a:b]
+            s[a] = "good"
+    return " ".join(s)
 
 
 def front_back(a, b):
@@ -130,4 +159,13 @@ def front_back(a, b):
     >>> front_back('Kitten', 'Donut')
     'KitDontenut'
     """
-    raise NotImplementedError
+    parta = len(a)//2
+    partb = len(b)//2
+    
+    if len(a) % 2 == 1:
+        parta +=1
+    if len(b) %2 == 1:
+        partb +=1
+    return a[:parta] + b[:partb] + a[parta:] + b[partb:]
+        
+        
