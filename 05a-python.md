@@ -43,7 +43,7 @@ Explain list comprehensions. Give examples and show equivalents with `map` and `
 
 ---
 
-T### Complete the following problems by editing the files below:
+### Complete the following problems by editing the files below:
 
 ### Q5. Datetime
 Use Python to compute days between start and stop date.   
