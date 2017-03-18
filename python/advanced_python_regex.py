@@ -15,6 +15,7 @@ Counter(degrees_fixed)
 faculty.set_value(24,  "title", "Assistant Professor of Biostatistics")
 
 emails = list(faculty.email)
+print(emails)
 
 email_domains = [x.split("@")[-1] for x in emails]
 
