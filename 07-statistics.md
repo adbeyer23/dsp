@@ -88,7 +88,7 @@ fraternal_twin = (1/125)
 identical_twin = (1/300)  
 Presley_prob_identical_twin = (identical_twin *.5) / (fraternal_twin*.25 + identical_twin * .5)  
 
-Answer: .45. Key piece of inforamtion in this problem is that Elvis Presley had a twin brother. So for fraternal twins,\nThe probability of getting two boys is .5 *.5 = .25 (assuming equal likelihood of getting boy/boy, girl/girl, boy/girl, and girl/boy). \nThe probability of getting twin boys is .5. So it's slightly more likely that Elvis Presley's brother was fraternal (as it's much more likely to be \na fraternal twin than an identical one)
+Answer: .45. Key piece of information in this problem is that Elvis Presley had a twin brother. So for fraternal twins,\nThe probability of getting two boys is .5 *.5 = .25 (assuming equal likelihood of getting boy/boy, girl/girl, boy/girl, and girl/boy). \nThe probability of getting twin boys is .5. So it's slightly more likely that Elvis Presley's brother was fraternal (as it's much more likely to be \na fraternal twin than an identical one)
 
 ---
 
