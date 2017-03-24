@@ -15,6 +15,5 @@ other_num = len(other.totalwgt_lb)
 
 pooled_std = np.sqrt(((first_std**2 * first_num) + (other_std**2 * other_num)) / (first_num + other_num))
 effect_size = (first_mean - other_mean) / pooled_std
-
-'''
+```
 Answer: -.089. This effect size is bigger than that of pregnancy length between first born and other born babies, but both effect sizes are very small, and probably not very relevant. 
