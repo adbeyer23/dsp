@@ -14,5 +14,5 @@ pmf.Mean()
 biased_pmf.Mean()
 ```
 
-Unbiased mean: 1.02
+Unbiased mean: 1.02  
 Biased mean: 2.4
